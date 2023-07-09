@@ -1,0 +1,38 @@
+#login {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./public/images/main-bg.svg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(240, 248, 255, 0.918);
+  border-radius: 10px;
+  width: 700px;
+  min-width: 300px;
+  height: 600px;
+  margin: 0 10px;
+}
+
+#login-form input {
+    height: 30px;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+}
+
+#login-inputs-wrapper {
+    width: 80%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

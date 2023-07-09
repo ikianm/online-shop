@@ -1,0 +1,32 @@
+#register {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./public/images/main-bg.svg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #register-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(240, 248, 255, 0.918);
+    border-radius: 10px;
+    width: 700px;
+    min-width: 300px;
+    height: 600px;
+    margin: 0 10px;
+  }
+  
+  
+  #register-inputs-wrapper {
+      width: 80%;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-evenly;
+  }
+  

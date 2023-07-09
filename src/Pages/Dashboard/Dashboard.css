@@ -1,0 +1,39 @@
+#dashboard-template {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+#add-product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+#add-product-form {
+  margin-top: 15px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.tables {
+  margin-top: 15px;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

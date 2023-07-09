@@ -1,0 +1,35 @@
+#home {
+  min-height: 100vh;
+  height: min-content;
+  width: 100vw;
+  background-image: url("./public/images/main-bg.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#home-product-section {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  row-gap: 50px;
+  margin-top: 15px;
+  min-height: 60.8vh;
+}
+
+@media screen and (max-width: 1401px) {
+  #home-product-section {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (max-width: 1095px) {
+  #home-product-section {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 711px) {
+  #home-product-section {
+    grid-template-columns: auto;
+  }
+}

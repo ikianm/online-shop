@@ -1,0 +1,114 @@
+#topbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  background-color: rgba(240, 248, 255, 0.973);
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+#topbar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-right: 20px;
+}
+
+#topbar-right h2 {
+  margin-left: 15px;
+  font-size: 35px;
+  letter-spacing: 2px;
+  color: rgb(11, 11, 122);
+}
+
+#topbar-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+#toggle-menu {
+  display: none;
+}
+
+#toggle-menu button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#topbar-left-button {
+  margin-right: 5px;
+}
+
+#cart-products {
+  position: absolute;
+  top: 80px;
+  width: 25vw;
+  height: 300px;
+  border-radius: 10px;
+  margin-right: 7px;
+  background-color: rgba(240, 248, 255, 0.978);
+  overflow: scroll;
+}
+
+#purchase-button {
+  width: 100%;
+  margin: 10px 0;
+}
+
+#total-price {
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 570px) {
+  #toggle-menu {
+    display: block;
+    position: absolute;
+    left: 20px;
+  }
+
+  #topbar-left-button {
+    position: relative;
+    top: 135px;
+    display: none;
+  }
+
+  #topbar-left-button.show {
+    display: block;
+  }
+
+  #top-right-button {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    display: none;
+  }
+
+  #top-right-button.show {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 408px) {
+  #topbar-right h2 {
+    margin: 0;
+    font-size: 30px;
+  }
+
+  #topbar-left-button {
+    position: relative;
+    top: 150px;
+  }
+}
+
+@media screen and (max-width: 367px) {
+  #topbar-right h2 {
+    font-size: 28px;
+  }
+}
